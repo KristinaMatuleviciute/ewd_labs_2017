@@ -1,0 +1,35 @@
+{
+  "name": "node_lab1",
+  "version": "0.0.1",
+  "description": "node lab 1",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon --exec babel-node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fxwalsh/ewd_labs_2017.git"
+  },
+  "author": "fxwalsh",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/fxwalsh/ewd_labs_2017/issues"
+  },
+  "homepage": "https://github.com/fxwalsh/ewd_labs_2017#readme",
+  "devDependencies": {
+    "babel-cli": "^6.23.0",
+    "babel-preset-es2015": "^6.22.0",
+    "babel-preset-stage-2": "^6.22.0",
+    "eslint": "^3.16.1",
+    "eslint-config-google": "^0.7.1",
+    "eslint-config-standard": "^7.0.0",
+    "eslint-plugin-promise": "^3.5.0",
+    "eslint-plugin-standard": "^2.1.1",
+    "nodemon": "^1.11.0"
+  },
+  "dependencies": {
+    "body-parser": "^1.17.1",
+    "express": "^4.15.0",
+    "lodash": "^4.17.4"
+  }
+}
